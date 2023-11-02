@@ -31,3 +31,13 @@ int main()
     return 0;
 }
 
+           /*   if (perimeter > square) {                               // выполняется проверка 
+    cout << "perimeter more" << endl;
+
+    }
+    else if (square > perimeter) {
+    cout << "square more" << endl;
+    }
+    else {
+    cout << "=" << endl;
+    } */  
