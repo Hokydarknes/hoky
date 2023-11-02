@@ -18,16 +18,7 @@ int main()
     kva(side, perimeter, square);
     cout << " perimeter kva " << perimeter << endl;
     cout << " square kva " << square << endl;
-    if (perimeter > square) {                               // выполняется проверка 
-        cout << "perimeter more" << endl;
-    
-    }
-    else if (square > perimeter) {
-        cout << "square more" << endl;
-    }
-    else {
-        cout << "=" << endl;
-    }
+   (perimeter > square) ? cout << " perimeter " : cout << "squre";       // выполняется проверка 
     return 0;
 }
 
