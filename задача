@@ -14,7 +14,7 @@ int main(){
     float x , y ;
     cout<< "enter data" << endl;
     cin>> x ;
-    y=(2 *  1/tan  (3*x) - (1)/12 * pow(x,2)+7 * x -5);
+   y= 2 * 1/tan(3*x) - (1/12 * pow(x,2)+7 * x -5); 
     cout <<  " y " << setprecision(5) << y <<endl;
     return 0;
 }
