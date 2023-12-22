@@ -45,9 +45,9 @@ using namespace std;
 
 
 int main(){
-    float xumas , yander ;
+    float x , y ;
     cout<< "enter number" <<endl;
-    cin >> xumas;
-    yander= (10 * sin(xumas)+abs(pow(xumas,4))-pow(xumas,5));
-    cout << "yander" << setprecision(3) << yander << endl;
+    cin >> x;
+    y= (10 * sin(x)+abs(pow(x,4))-pow(x,5));
+    cout << "y" << setprecision(3) << y << endl;
 } */
