@@ -1,8 +1,8 @@
-#include <lostream>
+#include <iostream>
 using namespace std;
 int main()
 {
-    int =3 , y=4;
+    int x= 3,y=4;
     cout << ++x << "\t" << --y << endl;
     cout << x++ << "\t" << y-- << endl;
     cout << x << "\t" << y << endl;
