@@ -1,0 +1,14 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{ 
+    const int N = 5;
+    for (int i = 1; i <= N; ++i) 
+     {//блоки
+        for (int j = i; j; --j)
+            cout << 2*j-1 << " ";
+        cout << endl;
+    }
+}
